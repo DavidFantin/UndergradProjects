@@ -1,0 +1,14 @@
+Anna Jordan
+David Fantin
+
+Original Output (gs):
+	{'bertha': 'yancey', 'amy': 'xavier', 'clare': 'zeus'}
+
+Blocked Output (gs_block):
+	{'bertha': 'yancey', 'amy': 'xavier'}
+
+Tie Output (gs_tie):
+	{'bertha': 'xavier', 'amy': 'zeus', 'clare': 'yancey'}
+	{'bertha': 'xavier', 'amy': 'yancey', 'clare': 'zeus'}
+	{'bertha': 'zeus', 'amy': 'yancey', 'clare': 'xavier'}
+	{'bertha': 'zeus', 'amy': 'xavier', 'clare': 'yancey'}

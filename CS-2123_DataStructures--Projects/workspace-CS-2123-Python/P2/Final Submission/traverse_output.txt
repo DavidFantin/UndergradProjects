@@ -1,0 +1,15 @@
+# David Fantin Andrew DeVoss Group 5
+
+C:\Users\apdev\Desktop\DataStructures\venv\Scripts\python.exe C:/Users/apdev/Desktop/DataStructures/Group5/traverse.py
+*********** (a) Depth-first search   **********
+['http://secon.utulsa.edu/cs2123/webtraverse/dijkstra.html', 'http://secon.utulsa.edu/cs2123/webtraverse/wainwright.html', 'http://secon.utulsa.edu/cs2123/webtraverse/alink.html', 'http://secon.utulsa.edu/cs2123/webtraverse/p8.html', 'http://secon.utulsa.edu/cs2123/webtraverse/p6.html', 'http://secon.utulsa.edu/cs2123/webtraverse/p7.html', 'http://secon.utulsa.edu/cs2123/webtraverse/p4.html', 'http://secon.utulsa.edu/cs2123/webtraverse/bletchley.html', 'http://secon.utulsa.edu/cs2123/webtraverse/kings.html', 'http://secon.utulsa.edu/cs2123/webtraverse/turing.html', 'http://secon.utulsa.edu/cs2123/webtraverse/p5b.html', 'http://secon.utulsa.edu/cs2123/webtraverse/p5.html', 'http://secon.utulsa.edu/cs2123/webtraverse/blink.html', 'http://secon.utulsa.edu/cs2123/webtraverse/clink.html', 'http://secon.utulsa.edu/cs2123/webtraverse/index.html']
+*********** (b) Breadth-first search **********
+['http://secon.utulsa.edu/cs2123/webtraverse/index.html', 'http://secon.utulsa.edu/cs2123/webtraverse/alink.html', 'http://secon.utulsa.edu/cs2123/webtraverse/blink.html', 'http://secon.utulsa.edu/cs2123/webtraverse/clink.html', 'http://secon.utulsa.edu/cs2123/webtraverse/dijkstra.html', 'http://secon.utulsa.edu/cs2123/webtraverse/turing.html', 'http://secon.utulsa.edu/cs2123/webtraverse/wainwright.html', 'http://secon.utulsa.edu/cs2123/webtraverse/p4.html', 'http://secon.utulsa.edu/cs2123/webtraverse/p5.html', 'http://secon.utulsa.edu/cs2123/webtraverse/p6.html', 'http://secon.utulsa.edu/cs2123/webtraverse/p7.html', 'http://secon.utulsa.edu/cs2123/webtraverse/kings.html', 'http://secon.utulsa.edu/cs2123/webtraverse/p5b.html', 'http://secon.utulsa.edu/cs2123/webtraverse/p8.html', 'http://secon.utulsa.edu/cs2123/webtraverse/bletchley.html']
+*********** (c) Find shortest path between two URLs ********
+['http://secon.utulsa.edu/cs2123/webtraverse/index.html', 'http://secon.utulsa.edu/cs2123/webtraverse/alink.html', 'http://secon.utulsa.edu/cs2123/webtraverse/wainwright.html']
+There is no path from http://secon.utulsa.edu/cs2123/webtraverse/turing.html to http://secon.utulsa.edu/cs2123/webtraverse/dijkstra.html
+*********** (d) Find the longest shortest path from a starting URL *****
+The farthest url is: http://secon.utulsa.edu/cs2123/webtraverse/bletchley.html and the path to get there is:
+['http://secon.utulsa.edu/cs2123/webtraverse/index.html', 'http://secon.utulsa.edu/cs2123/webtraverse/alink.html', 'http://secon.utulsa.edu/cs2123/webtraverse/turing.html', 'http://secon.utulsa.edu/cs2123/webtraverse/kings.html', 'http://secon.utulsa.edu/cs2123/webtraverse/bletchley.html']
+
+Process finished with exit code 0

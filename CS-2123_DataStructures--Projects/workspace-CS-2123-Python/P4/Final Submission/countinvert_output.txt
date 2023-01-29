@@ -1,0 +1,50 @@
+Bryan Lavender; David Fantin
+Project 4
+
+[7, 10, 18, 3, 14, 17, 23, 2, 11, 16]
+3  conflicts with  [18]
+14  conflicts with  [18]
+3  conflicts with  [7, 10]
+2  conflicts with  [17, 23]
+11  conflicts with  [17, 23]
+16  conflicts with  [17, 23]
+2  conflicts with  [3, 7, 10, 14, 18]
+11  conflicts with  [14, 18]
+16  conflicts with  [18]
+17  conflicts with  [18]
+# Inversions: 19
+
+[2, 1, 3, 6, 7, 8, 5, 4, 9, 10]
+1  conflicts with  [2]
+5  conflicts with  [8]
+4  conflicts with  [5, 8]
+4  conflicts with  [6, 7]
+5  conflicts with  [6, 7]
+# Inversions: 8
+
+[1, 3, 2, 6, 4, 5, 7, 10, 8, 9]
+4  conflicts with  [6]
+2  conflicts with  [3]
+8  conflicts with  [10]
+9  conflicts with  [10]
+5  conflicts with  [6]
+# Inversions: 5
+
+[(1, "Stevie Ray Vaughan: Couldn't Stand the Weather"), (2, 'Jimi Hendrix: Voodoo Chile'), (3, 'The Lumineers: Ho Hey'), (4, 'Adele: Chasing Pavements'), (5, 'Cake: I Will Survive'), (6, 'Aretha Franklin: I Will Survive'), (7, 'Beyonce: All the Single Ladies'), (8, 'Coldplay: Clocks'), (9, 'Nickelback: Gotta be Somebody'), (10, 'Garth Brooks: Friends in Low Places')]       
+# Inversions: 0
+
+[(3, 'The Lumineers: Ho Hey'), (4, 'Adele: Chasing Pavements'), (2, 'Jimi Hendrix: Voodoo Chile'), (1, "Stevie Ray Vaughan: Couldn't Stand the Weather"), (8, 'Coldplay: Clocks'), (6, 'Aretha Franklin: I Will Survive'), (5, 'Cake: I Will Survive'), (7, 'Beyonce: All the Single Ladies'), (9, 'Nickelback: Gotta be Somebody'), (10, 'Garth Brooks: Friends in Low Places')]       
+(1, "Stevie Ray Vaughan: Couldn't Stand the Weather")  conflicts with  [(2, 'Jimi Hendrix: Voodoo Chile')]
+(1, "Stevie Ray Vaughan: Couldn't Stand the Weather")  conflicts with  [(3, 'The Lumineers: Ho Hey'), (4, 'Adele: Chasing Pavements')]
+(2, 'Jimi Hendrix: Voodoo Chile')  conflicts with  [(3, 'The Lumineers: Ho Hey'), (4, 'Adele: 
+Chasing Pavements')]
+(5, 'Cake: I Will Survive')  conflicts with  [(6, 'Aretha Franklin: I Will Survive')]
+(5, 'Cake: I Will Survive')  conflicts with  [(8, 'Coldplay: Clocks')]
+(6, 'Aretha Franklin: I Will Survive')  conflicts with  [(8, 'Coldplay: Clocks')]
+(7, 'Beyonce: All the Single Ladies')  conflicts with  [(8, 'Coldplay: Clocks')]
+# Inversions: 9
+
+[(1, "Stevie Ray Vaughan: Couldn't Stand the Weather"), (2, 'Jimi Hendrix: Voodoo Chile'), (3, 'The Lumineers: Ho Hey'), (4, 'Adele: Chasing Pavements'), (6, 'Aretha Franklin: I Will Survive'), (5, 'Cake: I Will Survive'), (7, 'Beyonce: All the Single Ladies'), (8, 'Coldplay: Clocks'), (10, 'Garth Brooks: Friends in Low Places'), (9, 'Nickelback: Gotta be Somebody')]       
+(9, 'Nickelback: Gotta be Somebody')  conflicts with  [(10, 'Garth Brooks: Friends in Low Places')]
+(5, 'Cake: I Will Survive')  conflicts with  [(6, 'Aretha Franklin: I Will Survive')]
+# Inversions: 2
