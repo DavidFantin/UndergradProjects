@@ -1,0 +1,30 @@
+In[247]:= Clear["Global`*"]
+g=9.8; (** m/s^2 **)
+b2=0.1953; (** T **)
+\[Mu]0=1.2566; (** N/A^2 **)
+xSolid[\[CapitalDelta]m_,a_]:=ScientificForm[(\[CapitalDelta]m*10^-3*2*\[Mu]0*g)/(a*b2*10^-6)];
+xMassPowder[\[CapitalDelta]m_,m1_,h_]:=ScientificForm[(\[CapitalDelta]m*10^-3*2*\[Mu]0*g*h*10^-2)/(m1*10^-3*b2)];
+(** Titanum **)
+\[CapitalDelta]m=\[Placeholder]; (** grams **)
+area=\[Placeholder]; (** mm^2 **)
+xTi=xSolid[\[CapitalDelta]m,area];
+(** Bismuth **)
+\[CapitalDelta]m=\[Placeholder]; (** grams **)
+mass=\[Placeholder]; (** grams **)
+height=\[Placeholder]; (** cm **)
+xMassBi=xMassPowder[\[CapitalDelta]m,mass,height]
+(** Moore's Salt **)
+\[CapitalDelta]m=\[Placeholder]; (** grams **)
+mass=\[Placeholder]; (** grams **)
+height=\[Placeholder]; (** cm **)
+xMassMooreSalt=xMassPowder[\[CapitalDelta]m,mass,height]
+(** Cu Acitate **)
+\[CapitalDelta]m=\[Placeholder]; (** grams **)
+mass=\[Placeholder]; (** grams **)
+height=\[Placeholder]; (** cm **)
+xMassCuAcitate=xMassPowder[\[CapitalDelta]m,mass,height]
+(** Fe((acac)^3) **)
+\[CapitalDelta]m=.310; (** grams **)
+mass=2.443; (**grams**)
+height=3.3; (** cm **)
+xMassFeacac3=xMassPowder[\[CapitalDelta]m,mass,height]
