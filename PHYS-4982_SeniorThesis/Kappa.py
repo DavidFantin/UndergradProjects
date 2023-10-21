@@ -232,7 +232,7 @@ electron_Vel_Magnitude_X = list(data['el_bulk_vel_magn'] * u.m / u.s)
 # electron_Vel_Azimuth_Y contains the azimuth vector of incoming electrons
 electron_Vel_Azimuth_Y = list(data['el_bulk_vel_az'] * u.m / u.s)
 
-## el_density is NASA's calculation of electron density of the solar wind... This is the data we will compair out calculation against
+## el_density is NASA's calculation of electron density of the solar wind... This is the data we will compare out calculation against
 true_electron_density = list(data['el_density'])
 
 # Te contains the temperatures recorded for the electrons at each timestamp
